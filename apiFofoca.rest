@@ -1,0 +1,36 @@
+######### Cadastro Fofoca
+POST http://127.0.0.1:3333/fofocas HTTP/1.1
+Content-Type: application/json
+Authorization: 
+
+{
+    "tema": "Fofoca 01",
+    "mensagem": "bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
+    "data": "02/09/2022"
+}
+
+######### Listar todos as Fofocas
+GET http://127.0.0.1:3333/fofocas HTTP/1.1
+Content-Type: application/json
+Authorization: 
+
+######### Listar Fofoca específico
+GET http://127.0.0.1:3333/fofocas/1 HTTP/1.1
+Content-Type: application/json
+Authorization: 
+
+######### Alterar Fofoca
+PUT http://127.0.0.1:3333/fofocas/1 HTTP/1.1
+Content-Type: application/json
+Authorization: 
+
+{
+    "tema": "Fofoca 01.1",
+    "mensagem": "ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble",
+    "data": "04/09/2022"
+}
+
+######### Apagar Fofoca
+DELETE  http://127.0.0.1:3333/fofocas HTTP/1.1
+Content-Type: application/json
+Authorization: 
